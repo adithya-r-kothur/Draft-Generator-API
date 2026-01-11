@@ -1,8 +1,7 @@
 import os
 import requests
 
-# OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL = os.getenv("MODEL", "openai/gpt-oss-120b:free")
 
 HEADERS = {
